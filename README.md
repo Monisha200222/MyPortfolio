@@ -1,1 +1,92 @@
-# MyPortfolio
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Monisha Moti Ramani - Portfolio</title>
+  <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header>
+    <nav class="navbar" style="background-image: url(./maxresdefault.jpg);">
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#experience">Experience</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- HOME -->
+  <section id="home" class="section" style="background-image: url(./rear-view-programmer-working-all-night-long_1098-18697.jpg);">
+    <!-- <img src="./WhatsApp Image 2025-05-20 at 18.20.18 (1).png"> -->
+    <h1>Hello, I’m <span class="highlight">Monisha Moti Ramani</span></h1>
+    <p>Tech Professional | Java | Frontend | Cloud Cost Management</p>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section" style="background-image: url(./dice-form-expression-contact-us-260nw-2377041407.webp);">
+
+    <h2>Contact</h2>
+    <p><strong>Email:</strong> <a href="mailto:monishamotiramani@gmail.com" style="color:wheat;">monisha@gmail.com</a></p>
+    <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/monisha-moti-ramani-644526239/" style="color: aliceblue;" target="_blank">LinkedIn Profile</a></p>
+    <p><strong>Phone:</strong> +91 89XXXXXXXX51</p>
+    <p><strong>Location:</strong> ABC, India</p>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section" style="background-image: url(./robinson-169hero-portfolio-shutterstock.webp);">
+    <h2>Projects</h2>
+    <ul>
+      <li><strong>News Website Using News API:</strong> Responsive ReactJS platform with real-time News API.</li>
+      <li><strong>English Letters Detector – HandLandMarker:</strong> Gesture recognition tool using ReactJS & MediaPipe.</li>
+      <li><strong>Pharmacy Website:</strong> Online ordering & prescription management with HTML, CSS, JS.</li>
+    </ul>
+  </section>
+
+  <!-- CERTIFICATIONS -->
+  <section id="certifications" class="section">
+    <h2>Certifications</h2>
+    <ul>
+      <li>Networking – Netcamp Pvt Solutions Ltd</li>
+      <li>Software Engineering Simulation – Goldman Sachs</li>
+      <li>Agile Project Management – HP Life Foundation</li>
+      <li>Web Development</li>
+    </ul>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education" class="section" style="background-image: url(./education-2.jpg);">
+    <h2>Education</h2>
+    <ul>
+      <li>B.Tech CSE – GLA University, Mathura (2020-2024) | 76.3%</li>
+      <li>Intermediate – SJS Public School, Raebareli (2019-2020) | 77.4%</li>
+      <li>High School – (2017-2018) | 71.2%</li>
+    </ul>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience" class="section" style="background-image: url(./rear-view-programmer-working-all-night-long_1098-18697.jpg);">
+    <h2>Experience</h2>
+    <div class="exp-card">
+      <h3>Allianz Technology (Jan 2025 - Present)</h3>
+      <p>Apprenticeship – Cloud & Cost Management</p>
+    </div>
+    <div class="exp-card">
+      <h3>LotFair (May 2024 - Jan 2025)</h3>
+      <p>Trainee EPM Consultant</p>
+    </div>
+    <div class="exp-card">
+      <h3>Internships</h3>
+      <p>Netcamp – Networking Concepts | JOVAC – Blog Website Development</p>
+    </div>
+  </section>
+
+        
+</body>
+</html>
